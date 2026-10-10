@@ -1,0 +1,19 @@
+{
+  "name": "teste-qa-verzel-store",
+  "version": "1.0.0",
+  "description": "Teste técnico QA Júnior - Verzel Store (cupom e frete grátis)",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "report": "playwright show-report",
+    "evidencias": "node scripts/gerar-evidencias.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0"
+  },
+  "private": true
+}
